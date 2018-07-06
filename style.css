@@ -1,0 +1,16 @@
+* {
+    color: white;
+}
+body {
+    background-color: dodgerblue;   
+}
+h1 {
+    text-align:center;
+}
+.div-1 {
+    border: 1px solid white;
+}
+
+.div-2 {
+    border: 2px dotted yellow;
+}
