@@ -1,16 +1,32 @@
-* {
-    color: white;
-}
-body {
-    background-color: dodgerblue;   
-}
-h1 {
-    text-align:center;
-}
-.div-1 {
-    border: 1px solid white;
-}
 
-.div-2 {
-    border: 2px dotted yellow;
+* {
+  font-family: 'Lato', sans-serif;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+}
+#header {
+  padding: 50px 0;
+  color: white;
+  text-align: center;
+  background-color: #232c33;
+}
+.profile-photo {
+  height: 250px;
+  width: 250px;
+  background-image: url('./img/levi.jpg');
+  background-size: cover;
+  background-position: 60% 0%;
+  border-radius: 50%;
+  margin: auto;
+}
+.text-section {
+  max-width: 800px;
+  margin:auto;
+  padding: 0 10px;
+}
+#footer {
+  text-align: center;
+  border-top: 1px solid grey;
 }
