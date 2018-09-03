@@ -9,42 +9,41 @@
 </head>
 
 <body>
-    <div class="header" id='header'>
-        <div>
-            <a class="header__logo" href="https://www.webopedia.com" ></a>
-            <div class="search-form">
-                <form class="search-form__form" action="https://www.webopedia.com/serp" id="search">
+    <div class="header">
+        <div class='wrapper'>
+            <div class='search-container'>
+                <a class="header__logo" href="https://www.webopedia.com" ></a>
+                <div class="search-form">
+                    <form class="search-form__form" action="https://www.webopedia.com/serp" id="search">
 
-                    <img src="images/logo.png" class="logo-image" alt="" id='logo'></img>
+                        <img src="images/logo.png" class="logo-image"></img>
 
+                        <div class='search-box'>
+                            <input class="search-form__q" id="q" name="q" type="search" value="" placeholder="Enter a term...">
+                        </div>
 
-                    <div class='search-box'>
-                    <input class="search-form__q" id="q" name="q" type="search" value="" placeholder="Enter a term...">
-                    </div>
+                        <button class="search-form__button" aria-label="Webopedia Search" type="submit">
+                            <div class="search-form__button-text"></div>
+                        </button>
 
-                    <button class="search-form__button" aria-label="Webopedia Search" type="submit">
-                        <div class="search-form__button-text"></div>
-                        <img src="images/button.png"></img>
-                    </button>
-
-                </form>
+                    </form>
+                </div>
             </div>
+            <ul class="nav">
+                <li class="active">
+                    <a href="https://www.webopedia.com?header">MAIN</a>
+                </li>
+                <li>
+                    <a href="https://www.webopedia.com/TERM?header">BROWSE TERMS</a>
+                </li>
+                <li>
+                    <a href="https://www.webopedia.com/DidYouKnow/_index.asp?header">DID YOU KNOW?</a>
+                </li>
+                <li>
+                    <a href="https://www.webopedia.com/quick_ref/index.asp?header">REFERENCE</a>
+                </li>
+            </ul>
         </div>
-        <div id='nav'>
-        <ul class="nav">
-            <li class="active">
-                <a href="https://www.webopedia.com?header">MAIN</a>
-            </li>
-            <li>
-                <a href="https://www.webopedia.com/TERM?header">BROWSE TERMS</a>
-            </li>
-            <li>
-                <a href="https://www.webopedia.com/DidYouKnow/_index.asp?header">DID YOU KNOW?</a>
-            </li>
-            <li>
-                <a href="https://www.webopedia.com/quick_ref/index.asp?header">REFERENCE</a>
-            </li>
-        </ul>
     </div>
 </body>
 
